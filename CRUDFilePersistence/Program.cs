@@ -11,20 +11,22 @@
             List<Pessoa> listaPessoa = new List<Pessoa>();
             Persistencia.popularArquivoLista(caminhoArquivo, listaPessoa);
 
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("UFN - UNIVERSIDADE FRANSCISCANA");
-            Console.ResetColor();
-            Console.WriteLine("Seja muito bem vindo(a)!");
-
-            Console.WriteLine(" ");
-            Console.WriteLine("Escolha uma das opções para continuar");
-            Console.WriteLine(" ");
-
             int opcao;
             bool continuar = true;
 
             while (continuar)
             {
+                Console.Clear();
+
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("UFN - UNIVERSIDADE FRANSCISCANA");
+                Console.ResetColor();
+                Console.WriteLine("Seja muito bem vindo(a)!");
+
+                Console.WriteLine(" ");
+                Console.WriteLine("Escolha uma das opções para continuar");
+                Console.WriteLine(" ");
+
                 Console.WriteLine("1- Cadastrar pessoa");
                 Console.WriteLine("2- Listar pessoa");
                 Console.WriteLine("3- Apagar pessoa");
@@ -57,7 +59,7 @@
                     case 4:
                         Console.Clear();
                         Console.WriteLine("Pesquisar");
-                        //Crud.excluir(listaPessoa, caminhoArquivo);
+                        //Crud.pesquisar(listaPessoa);
                     break;
 
                     case 5:
