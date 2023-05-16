@@ -58,5 +58,49 @@ namespace CRUDFilePersistence
                 Console.WriteLine(item.Nome);
             }
         }
+
+        public static void apagar(List<Pessoa> lista, string caminhoArquivo)
+        {
+            string nome;
+            bool removeu = false;
+
+            do
+            {
+                Console.Write("Digite o nome a ser excluído: ");
+                nome = Console.ReadLine();
+
+                if(nome.ToLower() == "voltar")
+                {
+                    Console.Clear();
+                    break;
+                }
+
+                foreach (var item in lista)
+                {
+                    if (nome == item.Nome)
+                    {
+                        lista.Remove(item);
+                        removeu = true;
+                        break;
+                    }
+                }
+
+                if (removeu)
+                {
+                    Persistencia.gravarListaArquivo(lista, caminhoArquivo);
+                    Console.WriteLine("Registro excluída com sucesso!");
+                }
+                else
+                {
+                    Console.Clear();
+                    Console.WriteLine("Registro não encontrado, digite outro!");
+                    Console.WriteLine("Se você deseja voltar, digite 'voltar'");
+                    Console.WriteLine(" ");
+                }
+
+            } while(!removeu);
+
+
+        }
     }
 }

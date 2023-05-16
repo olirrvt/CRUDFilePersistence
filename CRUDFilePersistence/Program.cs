@@ -38,16 +38,12 @@
                 {
                     case 1:
                         Console.Clear();
-                        Console.WriteLine("Cadastrar");
-
                         // Classe CRUD com método para cadastrar 
                         Crud.cadastrar(listaPessoa, caminhoArquivo);
                     break;
 
                     case 2:
                         Console.Clear();
-                        Console.WriteLine("Listar");
-
                         // Classe CRUD com método para listar
                         Crud.listar(listaPessoa);
                     break;
@@ -55,14 +51,12 @@
                     case 3:
                         Console.Clear();
                         Console.WriteLine("Apagar");
-
-                        //Crud.apagar(listaPessoa);
+                        Crud.apagar(listaPessoa, caminhoArquivo);
                     break;
 
                     case 4:
                         Console.Clear();
                         Console.WriteLine("Pesquisar");
-
                         //Crud.excluir(listaPessoa, caminhoArquivo);
                     break;
 
