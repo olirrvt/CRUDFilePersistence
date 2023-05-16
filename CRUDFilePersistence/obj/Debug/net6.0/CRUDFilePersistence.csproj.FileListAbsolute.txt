@@ -1,0 +1,15 @@
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\bin\Debug\net6.0\CRUDFilePersistence.exe
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\bin\Debug\net6.0\CRUDFilePersistence.deps.json
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\bin\Debug\net6.0\CRUDFilePersistence.runtimeconfig.json
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\bin\Debug\net6.0\CRUDFilePersistence.dll
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\bin\Debug\net6.0\CRUDFilePersistence.pdb
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\CRUDFilePersistence.csproj.AssemblyReference.cache
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\CRUDFilePersistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\CRUDFilePersistence.AssemblyInfoInputs.cache
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\CRUDFilePersistence.AssemblyInfo.cs
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\CRUDFilePersistence.csproj.CoreCompileInputs.cache
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\CRUDFilePersistence.dll
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\refint\CRUDFilePersistence.dll
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\CRUDFilePersistence.pdb
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\CRUDFilePersistence.genruntimeconfig.cache
+C:\Users\Taylor\Desktop\CRUDFilePersistence\CRUDFilePersistence\obj\Debug\net6.0\ref\CRUDFilePersistence.dll
