@@ -80,13 +80,5 @@ namespace CRUDFilePersistence
 
             escritor.Close();
         }
-
-        public static void exibirLista(List<Pessoa> lista)
-        {
-            foreach (var item in lista)
-            {
-                Console.WriteLine(item.Nome);
-            }
-        }
     }
 }

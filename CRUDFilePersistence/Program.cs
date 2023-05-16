@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            List<Pessoa> list = new List<Pessoa>(); 
+            // Caminho do Arquivo
+            string caminhoArquivo = "C:/Users/Taylor/Desktop/CRUDFilePersistence/dados.dat";
+
+            // Lista com a classe Pessoa
+            List<Pessoa> listaPessoa = new List<Pessoa>();
+            Persistencia.popularArquivoLista(caminhoArquivo, listaPessoa);
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("UFN - UNIVERSIDADE FRANSCISCANA");
@@ -34,21 +39,31 @@
                     case 1:
                         Console.Clear();
                         Console.WriteLine("Cadastrar");
+
+                        // Classe CRUD com método para cadastrar 
+                        Crud.cadastrar(listaPessoa, caminhoArquivo);
                     break;
 
                     case 2:
                         Console.Clear();
-                        Console.WriteLine("Listar"); 
+                        Console.WriteLine("Listar");
+
+                        // Classe CRUD com método para listar
+                        Crud.listar(listaPessoa);
                     break;
 
                     case 3:
                         Console.Clear();
                         Console.WriteLine("Apagar");
+
+                        //Crud.apagar(listaPessoa);
                     break;
 
                     case 4:
                         Console.Clear();
                         Console.WriteLine("Pesquisar");
+
+                        //Crud.excluir(listaPessoa, caminhoArquivo);
                     break;
 
                     case 5:
